@@ -1,0 +1,66 @@
+.home{
+    margin: 0 20px;
+    /* width: 95vw; */
+    background-color: rgb(255,255,255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'PurpleDragon';
+    src: url('../fonts/PurpleDragon.otf');
+}
+
+@font-face {
+    font-family: 'brush';
+    src: url('../fonts/ResplendentBrushAlt.ttf');
+}
+
+.blog-heading{
+    text-align: center;
+    font-family: 'PurpleDragon';
+    color: rgb(55, 55, 55);
+}
+.my-logo{
+    text-align: center;
+}
+
+#blog-by{
+    font-family: 'brush';
+    color: rgb(67, 67, 67);
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+#logo-first{
+    color: orangered;
+}
+
+.posts{
+    padding: 10px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    
+}
+
+.post{
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: rgb(241, 248, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(77, 77, 77);
+    overflow: hidden;
+    width: 45%;
+}
+.post-img{
+    width: 100%;
+    max-height: 400px;
+    border-radius: 5px;
+    object-fit: cover;
+}

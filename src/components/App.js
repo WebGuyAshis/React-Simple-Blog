@@ -1,4 +1,4 @@
-import '../App.css';
+import './css/App.css';
 import { Routes, Route } from 'react-router-dom';
 // import { Navbar, Home, CreatePost, PostDetail } from './index.js';
 import Navbar from "./Navbar";
